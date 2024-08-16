@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/bootstrap-5.3.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/res.css">
+</head>
+<body>
+<div class="menu_modal_mb">
+    <ul>
+        <li class="active"><a href="">Giới thiệu</a></li>
+        <li><a href="">Tham gia</a></li>
+        <li><a href="">Giải thưởng</a></li>
+        <li><a href="">Tăng trưởng</a></li>
+        <li><a href="">Câu hỏi</a></li>
+        <li><a href="">Liên hệ</a></li>
+    </ul>
+</div>
+<section id="menu" class="position-relative">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-8">
+                <div class="menu">
+                    <ul>
+                        <li class="active"><a href="">Giới thiệu</a></li>
+                        <li><a href="">Tham gia</a></li>
+                        <li><a href="">Giải thưởng</a></li>
+                        <li><a href="">Tăng trưởng</a></li>
+                        <li><a href="">Câu hỏi</a></li>
+                        <li><a href="">Liên hệ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 text-right logged h-100">
+                <div class="wrap">
+                    <div class="it lik">
+                        <p class="m-0">Quản lý ví</p>
+                    </div>
+                    <div class="it info">
+                        <div class="d-flex align-items-center justify-content-center">
+                            <img src="./assets/img/avatar.png" alt="">
+                            <p class="m-0" style="padding:0 10px">Nguyễn Kỳ Duyên</p>
+                            <img src="./assets/img/drop.png" alt="">
+                            <span>99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="header" class="position-relative" style="min-height: auto;    background: #f9f4ff;">
+    <div class="container-fluid position-relative">
+        <div class="mb menu_mb">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-2">
+                    <div class="icon">
+                        <img src="./assets/img/Group_1597880423.png" alt="">
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="title">
+                        <h1>P2A & PI Network</h1>
+                    </div>
+                </div>
+                <div class="col-2">
+
+                    <div class="avatar">
+                        <img src="./assets/img/Mask_group.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="breadcrumb">
+            <div class="row">
+                <div class="col-12">
+                    <ul>
+                        <li><img src="./assets/img/home.png" alt=""></li>
+                        <li>Trang chủ</li>
+                        <li><img src="./assets/img/arrow_icon.png" alt=""></li>
+                        <li><strong>Quản lý ví</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="user">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="bn">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="d-flex align-items-center justify-content-start">
+                                <img src="./assets/img/avatar_2.png" alt="">
+                                <div class="us">
+                                    <h1>Đoàn Quang Thành</h1>
+                                    <button>
+                                        <img src="./assets/img/tabler-icon-shield-check.png" alt="">
+                                        Chưa xác thực
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <h2>
+                                <label>100 ĐIỂM</label>
+                                <img src="./assets/img/tabler-icon-lock-square-rounded-filled.png" alt="" width="35">
+                            </h2>
+                            <p style="color: #fff">
+                                Chuyển PI xác thực ví để nhận ngay
+                                <strong>100 điểm thưởng</strong>
+                            </p>
+                        </div>
+                        <div class="col-12">
+                            <button class="xtn">Xác thực ngay</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal_xac_thuc" tabindex="-1" aria-labelledby="exampleModal_xac_thuc" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="img">
+                        <img src="./assets/img/8781027.png" alt="" class="w-100">
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                   <h3>Nhận ngay 100 điểm thưởng</h3>
+                    <p>Chuyển PI xác thực ví để nhận ngay điểm thưởng</p>
+                    <button>Xác thực ngay <img src="./assets/img/tabler-icon-arrow-narrow-right.png" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>CHUYỂN ĐỔI PI NHANH CHÓNG - AN TOÀN - TIN CẬY</h2>
+                <hr style="border-color: #A157FF; width: 500px;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-5 pt-5 pb-5">
+                <ul class="list-unstyled">
+                    <li class="d-flex align-items-center">
+                        <img src="./assets/img/tabler-icon-mail.png" alt="" style="margin-right: 10px">
+                        <strong style="margin-right: 5px">Email: </strong>
+                        <p>pinetwork@gmail.com</p>
+                    </li>
+                    <li class="d-flex align-items-center">
+                        <img src="./assets/img/tabler-icon-phone-call.png" alt="" style="margin-right: 10px">
+                        <strong style="margin-right: 5px">Hotline: </strong>
+                        <p>6703 560 987</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <hr style="margin:0;border-color: var(--color1)">
+                <p style="font-size: 14px;font-weight: 400;line-height: 16.41px;text-align: left;padding: 10px 0;">©
+                    Copyright 2024 Lorem</p>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="assets/jquery-3.7.1.min.js"></script>
+<script src="assets/bootstrap-5.3.3/js/bootstrap.min.js"></script>
+<script src="assets/js.js"></script>
+<script>
+    var exampleModal_xac_thuc = $('#exampleModal_xac_thuc')
+    setTimeout(() => {
+        exampleModal_xac_thuc.modal('show')
+    }, 1000)
+</script>
+</body>
+</html>

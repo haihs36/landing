@@ -1,0 +1,332 @@
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    #header .info .div_dbl img{
+        left: 50%;
+        top: -30px;
+    }
+    .menu ul li{
+        padding: 15px 10px;
+    }
+    #user{
+        padding-bottom: 200px;
+    }
+    .bg {
+        max-width: 55%;
+    }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+    .bg {
+        max-width: 55%;
+    }
+    #header {
+        min-height: 750px;
+    }
+    #header .info .div_dbl img {
+        left: 60%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #header .col-12.col-md-8{
+        width: 100%;
+    }
+    #header {
+        min-height: 700px;
+    }
+    #user{
+        padding-bottom: 150px;
+    }
+    .menu ul li{
+        padding: 15px 5px;
+    }
+    .txt_head{
+        width: 100%;
+    }
+    .bg{
+        display: none;
+    }
+    #header .info .div_dbl img{
+        left: 55%;
+    }
+    #step img{
+        width: 100%;
+    }
+    #step #accordion{
+        margin-top: 8rem;
+        margin-left: 3em;
+    }
+    #banner img{
+        width: 100%;
+    }
+    #cong_dong .absolute .col-md-3.col-6.item{
+        width: 50%;
+    }
+    #banner .col-12.col-md-6.item{
+        width: 100%;
+    }
+    #banner .bn_txt .item img{
+        width: auto;
+    }
+    #banner .bn_txt .item .img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #banner{
+        background: url("./img/banner_mb.png");
+        height: auto;
+    }
+    #banner h2{
+        top: 0;
+        margin-top: 100px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    #banner .bn_txt{
+        margin-top: 20px;
+    }
+    #banner .bn_txt .em{
+        padding: 20px 0;
+    }
+    #banner .bn_txt .em .txt{
+        display: block !important;
+    }
+    #banner .bn_txt .em img{
+        display: none;
+    }
+    #banner .bn_txt .em ul{
+        list-style: circle;
+        position: initial;
+        margin-left: 30px;
+    }
+    #banner .btn_dkn, #step .mb .btn_dkn{
+        margin-top: 80px !important;
+    }
+    #banner .btn_dkn button, #step .mb .btn_dkn button{
+        position: absolute;
+        z-index: 99;
+    }
+}
+@media screen and (max-width: 767px) {
+    #step{
+        padding-top: 0;
+    }
+    #menu{
+        display: none;
+    }
+    #user{
+        padding-bottom: 100px;
+    }
+    #header .info{
+        margin: 0;
+    }
+    .bg{
+        display: none;
+    }
+    .bg_mb{
+        display: block;
+    }
+    #banner{
+        background: url("./img/banner_mb.png");
+        height: auto;
+    }
+    #banner h2{
+        top: 0;
+        margin-top: 70px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    #banner .bn_txt{
+        margin-top: 20px;
+    }
+    #banner .bn_txt .item img{
+        width: 100%;
+    }
+    #banner .bn_txt .item .ti_50 img{
+        width: 70%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #banner .bn_txt .em{
+        padding: 20px 0;
+    }
+    #banner .bn_txt .em img{
+        display: none;
+    }
+    #cong_dong h2{
+        padding: 0 0 0 0;
+    }
+    #banner .bn_txt .em ul{
+        position: initial;
+        margin-left: 30px;
+    }
+    #banner .btn_dkn, #step .mb .btn_dkn{
+        margin-top: 80px !important;
+    }
+    #banner .btn_dkn button, #step .mb .btn_dkn button{
+        position: absolute;
+        z-index: 99;
+    }
+    #header .info h1{
+        font-size: 20px;
+        padding: 20px 40px;
+        line-height: 26px;
+        text-align: center;
+        position: relative;
+        margin-bottom: 40px;
+    }
+    #header .info h1::after{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        width: 100px;
+        background: #BCABD2;
+        height: 1px;
+        left: 38%;
+    }
+    #header .info hr{
+        display: none;
+    }
+    #header .info p, #header .info h2{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    #header .info .div_dbl img{
+        left: 45%;
+        top: -15%;
+        width: 45px;
+    }
+    #header .info .div_dbl .btn_dblch{
+        text-align: center;
+    }
+    .button_primary{
+        width: 233px;
+        height: 46px;
+        font-size: 16px;
+    }
+    .dk{
+        display: none;
+    }
+    .mb{
+        display: block;
+    }
+    .menu_mb{
+        box-shadow: 0 2px 8px 0 #0000001F;
+        height: 60px;
+        margin-left: -12px;
+        margin-right: -12px;
+        position: relative;
+        z-index: 999;
+    }
+    .menu_mb .row{
+        height: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .menu_mb .title h1{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19.36px;
+        letter-spacing: -0.5002105832099915px;
+        text-align: center;
+        color: #B145F7;
+        margin: 0;
+    }
+    .menu_modal_mb ul {
+        width: calc(100% - 60px);
+        height: 100%;
+        background: #fff;
+        padding: 20px 20px;
+        display: block;
+    }
+
+    .menu_modal_mb ul li {
+        display: block;
+        width: 100%;
+        padding: 15px 0;
+        border-bottom: 1px solid #cccccc78;
+    }
+
+    .menu_modal_mb ul li a {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 21.09px;
+        letter-spacing: -0.5002105832099915px;
+        text-align: center;
+        color: #333;
+    }
+
+    .menu_modal_mb ul li.active a {
+        color: var(--purple);
+        font-weight: 700;
+
+    }
+    #step{
+        padding-bottom: 0;
+    }
+    #step h2{
+        font-size: 20px;
+        line-height: 26px;
+        padding: 40px 20px;
+    }
+    #cong_dong img{
+        display: none;
+    }
+    #cong_dong .absolute{
+        position: relative;
+    }
+    #cong_dong .absolute .item h3 {
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: var(--purple);
+    }
+    #faq .dkn{
+        margin: 60px 0 -20px !important;
+    }
+    #faq .card .card-body,#faq .card .card-header{
+        background: #f9f4ff;
+    }
+    #faq .card-footer{
+        display: none;
+    }
+    #faq .card .card-header h5{
+        color: var(--color4);
+    }
+    #cong_dong .absolute .item p{
+        padding: 10px;
+        line-height: 25px;
+    }
+    #faq .card{
+        border-radius: 10px;
+        margin-bottom: 15px;
+        min-height: 100px;
+        justify-content: center;
+        padding: 5px 0;
+    }
+    #footer h2{
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22px;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    #footer .col-12.col-md-5{
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+    }
+    #footer .col-12.col-md-5 ul li{
+        padding: 5px 0;
+    }
+    #xac_thuc .upload {
+        padding: 40px 20px;
+    }
+    #xac_thuc .upload-files-container{
+        width: 100%;
+    }
+    #xac_thuc .drag-file-area{
+        border: none;
+        padding: 0;
+    }
+}
